@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="img-wrapper">
+        <img alt="panorama" id="picture" />
+        <p><span class="img-title"></span></p>
+      </div>
+      <button id="left"><i class="fas fa-arrow-left arrow"></i></button>
+      <button id="right"><i class="fas fa-arrow-right arrow"></i></button>
+      <div class="buttons">
+        <span id="button1"></span>
+        <span id="button2"></span>
+        <span id="button3"></span>
+        <span id="button4"></span>
+      </div>
+    </header>
+    <div id="like_button_container"></div>
+    <script src="app.js"></script>
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
+  </body>
+</html>
